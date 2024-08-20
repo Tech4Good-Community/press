@@ -16,7 +16,7 @@ The other crucial component of the Frappe Cloud infrastructure is called "Agent.
 ```bash
 sudo apt install fail2ban supervisor nginx -y
 
-sudo apt install apt install certbot python3-certbot-nginx -y
+sudo apt install certbot python3-certbot-nginx -y
 
 # This is to check the auto-renew of the SSL certificate 
 systemctl status certbot.timer
